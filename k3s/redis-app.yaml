@@ -5,7 +5,7 @@ metadata:
   name: redis-app-deployment
   namespace: devops
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: redis-app
